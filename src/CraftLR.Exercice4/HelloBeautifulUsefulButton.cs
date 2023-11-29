@@ -11,4 +11,9 @@ public partial class HelloBeautifulUsefulButton : Window
     {
         InitializeComponent();
     }
+
+    private void Button_OnClick(object sender, RoutedEventArgs eventData)
+    {
+        Console.Out.WriteLine($"Bouton actionné");
+    }
 }
